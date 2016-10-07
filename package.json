@@ -1,0 +1,35 @@
+{
+  "name": "react-animator",
+  "version": "1.0.0",
+  "description": "A higher-order React component for animation.",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "babel src --out-dir dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/proAlexandr/react-animator.git"
+  },
+  "keywords": [
+    "react",
+    "animation",
+    "composition"
+  ],
+  "author": "Alexandr Promakh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/proAlexandr/react-animator/issues"
+  },
+  "homepage": "https://github.com/proAlexandr/react-animator#readme",
+  "dependencies": {
+    "ramda": "^0.22.1",
+    "react": ">=0.14.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.16.0",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-0": "^6.16.0"
+  }
+}
